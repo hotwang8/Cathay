@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+此檔案是由 Eclipse Implementation of JAXB, v2.3.7 所產生 
+請參閱 https://eclipse-ee4j.github.io/jaxb-ri 
+一旦重新編譯來源綱要, 對此檔案所做的任何修改都將會遺失. 
+產生時間: 2024.11.14 於 11:42:05 AM CST 
+
+  -->
+      
+    <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.firstlife.insurance.webservice"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:ReturnData">
+                  
+            <class ref="com.firstlife.insurance.webservice.ReturnData"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReturnDataResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.ReturnDataResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReturnXmlData">
+                  
+            <class ref="com.firstlife.insurance.webservice.ReturnXmlData"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ReturnXmlDataResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.ReturnXmlDataResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ActionInsLoginVerification">
+                  
+            <class ref="com.firstlife.insurance.webservice.ActionInsLoginVerification"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ActionInsLoginVerificationResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.ActionInsLoginVerificationResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ApexTokenCust">
+                  
+            <class ref="com.firstlife.insurance.webservice.ApexTokenCust"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ApexTokenCustResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.ApexTokenCustResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CheckTOKEN">
+                  
+            <class ref="com.firstlife.insurance.webservice.CheckTOKEN"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CheckTOKENResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.CheckTOKENResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CheckTOKEN_CKI">
+                  
+            <class ref="com.firstlife.insurance.webservice.CheckTOKENCKI"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:CheckTOKEN_CKIResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.CheckTOKENCKIResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:PropertyInsurance">
+                  
+            <class ref="com.firstlife.insurance.webservice.PropertyInsurance"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:PropertyInsuranceResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.PropertyInsuranceResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:notifyNewLifeInsurance">
+                  
+            <class ref="com.firstlife.insurance.webservice.NotifyNewLifeInsurance"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:notifyNewLifeInsuranceResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.NotifyNewLifeInsuranceResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GainInsuranceNo">
+                  
+            <class ref="com.firstlife.insurance.webservice.GainInsuranceNo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:GainInsuranceNoResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.GainInsuranceNoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RecviveChinaLifeFiles">
+                  
+            <class ref="com.firstlife.insurance.webservice.RecviveChinaLifeFiles"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:RecviveChinaLifeFilesResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.RecviveChinaLifeFilesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SecurityInsurance">
+                  
+            <class ref="com.firstlife.insurance.webservice.SecurityInsurance"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SecurityInsuranceResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.SecurityInsuranceResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getLatestInsurance">
+                  
+            <class ref="com.firstlife.insurance.webservice.GetLatestInsurance"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getLatestInsuranceResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.GetLatestInsuranceResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SendEncInsData">
+                  
+            <class ref="com.firstlife.insurance.webservice.SendEncInsData"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SendEncInsDataResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.SendEncInsDataResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+      
+    <bindings xmlns:tns="http://schemas.datacontract.org/2004/07/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.firstlife.insurance.webservice"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:SalesRult">
+                  
+            <class ref="com.firstlife.insurance.webservice.SalesRult"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ResponseRult">
+                  
+            <class ref="com.firstlife.insurance.webservice.ResponseRult"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SalesDataResponse">
+                  
+            <class ref="com.firstlife.insurance.webservice.SalesDataResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ResponseforApex">
+                  
+            <class ref="com.firstlife.insurance.webservice.ResponseforApex"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
